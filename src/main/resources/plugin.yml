@@ -1,0 +1,14 @@
+name: LuaCraft
+version: ${project.version}
+main: gg.valgo.luacraft.Main
+api-version: 1.16
+authors: [ Valgo ]
+description: Allows for Spigot plugins to be written in Lua.
+commands:
+  lua:
+    description: Allows for Lua plugins to be enabled, disabled, and more.
+    permission: luacraft.command
+permissions:
+  luacraft.command:
+    description: Allows for a player to use /lua
+    default: op
